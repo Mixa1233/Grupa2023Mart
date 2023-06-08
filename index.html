@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="myForm">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" required>
+        <div id="firstNameError" class="error"></div>
+      
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" required>
+        <div id="lastNameError" class="error"></div>
+      
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+        <div id="emailError" class="error"></div>
+      
+        <label for="phoneNumber">Phone Number:</label>
+        <input type="tel" id="phoneNumber" required>
+        <div id="phoneNumberError" class="error"></div>
+      
+        <button type="submit">Submit</button>
+      </form>
+      
+
+    <script src="main.js"></script>
+</body>
+</html>
